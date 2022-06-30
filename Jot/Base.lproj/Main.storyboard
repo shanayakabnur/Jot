@@ -59,10 +59,10 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="69.642857142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Human Home View Controller-->
         <scene sceneID="EnV-jl-aal">
             <objects>
-                <viewController id="zpV-8i-FHs" sceneMemberID="viewController">
+                <viewController id="zpV-8i-FHs" customClass="HumanHomeViewController" customModule="Jot" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4ng-e9-1s0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -223,6 +223,10 @@
                         <viewLayoutGuide key="safeArea" id="yIA-zp-t1q"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="erVUrgentButton" destination="jW1-bY-UOo" id="ZQi-qf-T6s"/>
+                        <outlet property="vitaminsButton" destination="wLc-Ky-C7p" id="KHh-CS-LZ9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9iT-UA-351" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
