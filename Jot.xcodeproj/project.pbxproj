@@ -23,6 +23,8 @@
 		1B2F14B8286E020700B876F7 /* HomePagePetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F14B7286E020700B876F7 /* HomePagePetViewController.swift */; };
 		1BEA0660286E200C00388FE2 /* julyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEA065F286E200C00388FE2 /* julyViewController.swift */; };
 		1BF109E2286E4392002BA3BA /* HumanHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF109E1286E4392002BA3BA /* HumanHomeViewController.swift */; };
+		1BF109E4286E4736002BA3BA /* EasyAccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF109E3286E4736002BA3BA /* EasyAccessViewController.swift */; };
+		1BF109E6286E4C3A002BA3BA /* AugustViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF109E5286E4C3A002BA3BA /* AugustViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		1B2F14B7286E020700B876F7 /* HomePagePetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagePetViewController.swift; sourceTree = "<group>"; };
 		1BEA065F286E200C00388FE2 /* julyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = julyViewController.swift; sourceTree = "<group>"; };
 		1BF109E1286E4392002BA3BA /* HumanHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanHomeViewController.swift; sourceTree = "<group>"; };
+		1BF109E3286E4736002BA3BA /* EasyAccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyAccessViewController.swift; sourceTree = "<group>"; };
+		1BF109E5286E4C3A002BA3BA /* AugustViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugustViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		1B01ED16286BA26F002F73C4 = {
 			isa = PBXGroup;
 			children = (
+				1BF109E5286E4C3A002BA3BA /* AugustViewController.swift */,
+				1BF109E3286E4736002BA3BA /* EasyAccessViewController.swift */,
 				1BF109E1286E4392002BA3BA /* HumanHomeViewController.swift */,
 				1B01ED21286BA270002F73C4 /* Jot */,
 				1B01ED3B286BA274002F73C4 /* JotTests */,
@@ -285,8 +291,10 @@
 				1B01ED27286BA270002F73C4 /* ViewController.swift in Sources */,
 				1B01ED2D286BA270002F73C4 /* Jot.xcdatamodeld in Sources */,
 				1B01ED23286BA270002F73C4 /* AppDelegate.swift in Sources */,
+				1BF109E4286E4736002BA3BA /* EasyAccessViewController.swift in Sources */,
 				1B01ED56286C0086002F73C4 /* petMap.swift in Sources */,
 				1B01ED25286BA270002F73C4 /* SceneDelegate.swift in Sources */,
+				1BF109E6286E4C3A002BA3BA /* AugustViewController.swift in Sources */,
 				1B00C260286CE2190078FBE8 /* ViewController2.swift in Sources */,
 				1BF109E2286E4392002BA3BA /* HumanHomeViewController.swift in Sources */,
 			);

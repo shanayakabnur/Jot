@@ -1,23 +1,21 @@
 //
-//  ViewController.swift
+//  AugustViewController.swift
 //  Jot
 //
-//  Created by Shanaya Kabnur on 6/28/22.
+//  Created by Shanaya Kabnur on 6/30/22.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class AugustViewController: UIViewController {
 
-//IMAGE 1
-    
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+       
         // Do any additional setup after loading the view.
     }
-
-
+    
 }
-

@@ -36,11 +36,10 @@ extension julyViewController: UIPickerViewDelegate, UIPickerViewDataSource {
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return waters[row]
         
+        func pickerView (_ pickerView : UIPickerView, didSelectRow row: Int, inComponent component: Int){
+            waterTextField.text = waters[row]
+            
+        }
+        
     }
-    
-    func pickerView (_ pickerView : UIPickerView, didSelectRow row: Int, inComponent component: Int){
-        waterTextField.text = waters[row]
-        waterTextField.resignFirstResponder()
-    }
-    
 }
