@@ -19,6 +19,7 @@
 		1B01ED47286BA274002F73C4 /* JotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01ED46286BA274002F73C4 /* JotUITests.swift */; };
 		1B01ED49286BA274002F73C4 /* JotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01ED48286BA274002F73C4 /* JotUITestsLaunchTests.swift */; };
 		1B01ED56286C0086002F73C4 /* petMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01ED55286C0086002F73C4 /* petMap.swift */; };
+		1B2F14B2286D53C700B876F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2F14B1286D53C700B876F7 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		1B01ED46286BA274002F73C4 /* JotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JotUITests.swift; sourceTree = "<group>"; };
 		1B01ED48286BA274002F73C4 /* JotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JotUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1B01ED55286C0086002F73C4 /* petMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petMap.swift; sourceTree = "<group>"; };
+		1B2F14B1286D53C700B876F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				1B01ED24286BA270002F73C4 /* SceneDelegate.swift */,
 				1B01ED26286BA270002F73C4 /* ViewController.swift */,
 				1B01ED28286BA270002F73C4 /* Main.storyboard */,
+				1B2F14B1286D53C700B876F7 /* ContentView.swift */,
 				1B00C25F286CE2190078FBE8 /* ViewController2.swift */,
 				1B01ED55286C0086002F73C4 /* petMap.swift */,
 				1B01ED2E286BA274002F73C4 /* Assets.xcassets */,
@@ -269,6 +272,7 @@
 			files = (
 				1B01ED27286BA270002F73C4 /* ViewController.swift in Sources */,
 				1B01ED2D286BA270002F73C4 /* Jot.xcdatamodeld in Sources */,
+				1B2F14B2286D53C700B876F7 /* ContentView.swift in Sources */,
 				1B01ED23286BA270002F73C4 /* AppDelegate.swift in Sources */,
 				1B01ED56286C0086002F73C4 /* petMap.swift in Sources */,
 				1B01ED25286BA270002F73C4 /* SceneDelegate.swift in Sources */,

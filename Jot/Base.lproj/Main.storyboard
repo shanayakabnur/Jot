@@ -44,7 +44,7 @@
                                     <color key="baseBackgroundColor" red="0.99803704019999995" green="0.78845870490000003" blue="0.70621579889999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="pI8-xS-7QQ" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="NQP-J7-HZ6"/>
+                                    <segue destination="pI8-xS-7QQ" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="AJ5-zx-HQF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -176,16 +176,6 @@
                                 <color key="textColor" red="0.64313725489999995" green="0.2901960784" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bP0-qY-t33">
-                                <rect key="frame" x="20" y="596" width="364" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="bring fido">
-                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
-                                    <color key="baseForegroundColor" red="0.64313725489999995" green="0.2901960784" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="baseBackgroundColor" red="0.99803704019999995" green="0.78845870490000003" blue="0.70621579889999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ob-Sb-fWS">
                                 <rect key="frame" x="20" y="715" width="364" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -196,21 +186,28 @@
                                     <color key="baseBackgroundColor" red="0.99803704019999995" green="0.78845870490000003" blue="0.70621579889999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mila_" translatesAutoresizingMaskIntoConstraints="NO" id="rUU-TA-vt1">
-                                <rect key="frame" x="200" y="566" width="207" height="154"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiT-ob-e0h">
+                                <rect key="frame" x="20" y="596" width="364" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="bring fido">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                    <color key="baseForegroundColor" red="0.64313725489999995" green="0.2901960784" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.99803704019999995" green="0.78845870490000003" blue="0.70621579889999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mila_ 4" translatesAutoresizingMaskIntoConstraints="NO" id="7Wu-Qe-xCW">
+                                <rect key="frame" x="17" y="690" width="145" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mila_ 3" translatesAutoresizingMaskIntoConstraints="NO" id="w5k-MG-P8l">
-                                <rect key="frame" x="19" y="684" width="163" height="156"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mila_" translatesAutoresizingMaskIntoConstraints="NO" id="a1a-Yw-T28">
+                                <rect key="frame" x="230" y="571" width="145" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KxE-Uk-PEV"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <connections>
-                        <outlet property="googleButton" destination="bP0-qY-t33" id="9Sc-Im-Mjs"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a4E-OO-UUt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -459,12 +456,12 @@
     <inferredMetricsTieBreakers>
         <segue reference="Slk-nx-Nu7"/>
         <segue reference="x7E-An-fMn"/>
-        <segue reference="AJy-th-Nx1"/>
+        <segue reference="PWE-hA-leN"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.64313725489999995" green="0.2901960784" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
         <image name="Mila_" width="2048" height="2048"/>
-        <image name="Mila_ 3" width="2048" height="2048"/>
+        <image name="Mila_ 4" width="2048" height="2048"/>
         <image name="Screenshot_20220629-210532" width="959" height="989"/>
         <image name="back" width="2048" height="2048"/>
         <image name="files" width="2048" height="2048"/>
