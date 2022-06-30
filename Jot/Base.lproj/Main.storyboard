@@ -1099,10 +1099,10 @@
     <inferredMetricsTieBreakers>
         <segue reference="V2N-4O-m8B"/>
         <segue reference="x7E-An-fMn"/>
-        <segue reference="EBz-G3-M7h"/>
+        <segue reference="AJ5-zx-HQF"/>
         <segue reference="wg7-HF-mRG"/>
         <segue reference="lCh-ps-ArZ"/>
-        <segue reference="ePo-D5-CPR"/>
+        <segue reference="XlS-5b-SvG"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.64313725489999995" green="0.2901960784" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
@@ -1121,8 +1121,8 @@
         <image name="jot_clear" width="2048" height="2048"/>
         <image name="map_pin" width="2048" height="2048"/>
         <image name="mappin" catalog="system" width="105" height="128"/>
-        <image name="pills" catalog="system" width="128" height="106"/>
         <image name="pills" width="2048" height="2048"/>
+        <image name="pills" catalog="system" width="128" height="106"/>
         <image name="pills_clear" width="2048" height="2048"/>
         <image name="scale" width="2048" height="2048"/>
         <image name="scalemass" catalog="system" width="128" height="119"/>
