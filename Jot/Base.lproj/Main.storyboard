@@ -87,6 +87,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="fork.knife" catalog="system"/>
+                                <connections>
+                                    <segue destination="44r-jZ-seT" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="4XP-Bj-YUg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBk-wm-xfL">
                                 <rect key="frame" x="170" y="817" width="64" height="45"/>
@@ -208,6 +211,14 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pills_clear" translatesAutoresizingMaskIntoConstraints="NO" id="Bun-ny-x6z">
+                                <rect key="frame" x="279" y="599" width="82" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sthetopsope" translatesAutoresizingMaskIntoConstraints="NO" id="HfS-Ry-WVd">
+                                <rect key="frame" x="35" y="725" width="82" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yIA-zp-t1q"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -245,6 +256,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="fork.knife" catalog="system"/>
+                                <connections>
+                                    <segue destination="44r-jZ-seT" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="tF0-VW-TRY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m4e-vF-k8W">
                                 <rect key="frame" x="170" y="817" width="64" height="45"/>
@@ -326,12 +340,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="homekit" catalog="system"/>
+                                <connections>
+                                    <segue destination="zpV-8i-FHs" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="iEC-yV-FY6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dO-JI-qHb">
                                 <rect key="frame" x="105" y="817" width="65" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="mappin" catalog="system"/>
+                                <connections>
+                                    <segue destination="osJ-c9-hVw" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="0t1-Pj-hyp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDf-lY-Xvm">
                                 <rect key="frame" x="247" y="817" width="64" height="45"/>
@@ -351,6 +371,13 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="pills" catalog="system"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="food diary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CE7-Jh-CHh">
+                                <rect key="frame" x="20" y="72" width="165" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="34"/>
+                                <color key="textColor" red="0.64313725489999995" green="0.2901960784" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="31t-RT-nOM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -360,10 +387,10 @@
             </objects>
             <point key="canvasLocation" x="1471.0144927536232" y="740.625"/>
         </scene>
-        <!--View Controller-->
+        <!--July View Controller-->
         <scene sceneID="NVW-sb-fed">
             <objects>
-                <viewController id="VMI-az-cSQ" sceneMemberID="viewController">
+                <viewController id="VMI-az-cSQ" customClass="julyViewController" customModule="Jot" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E4f-HV-BVS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -420,27 +447,32 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WJS-37-Y8b">
-                                <rect key="frame" x="108" y="348" width="236" height="46"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="97g-SD-YLu">
                                 <rect key="frame" x="32" y="817" width="65" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="homekit" catalog="system"/>
+                                <connections>
+                                    <segue destination="zpV-8i-FHs" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="ggc-bs-gBp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5X-Vh-N1b">
                                 <rect key="frame" x="105" y="817" width="65" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="mappin" catalog="system"/>
+                                <connections>
+                                    <segue destination="osJ-c9-hVw" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="g4M-06-vYR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4p-Ew-a96">
                                 <rect key="frame" x="247" y="817" width="64" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="fork.knife" catalog="system"/>
+                                <connections>
+                                    <segue destination="44r-jZ-seT" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Yfr-gY-USf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvM-g1-3ma">
                                 <rect key="frame" x="170" y="817" width="64" height="45"/>
@@ -466,13 +498,22 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Submit "/>
                                 <connections>
-                                    <segue destination="zpV-8i-FHs" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="QdS-pc-9Kc"/>
+                                    <segue destination="44r-jZ-seT" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Beh-M5-zvG"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LyY-NZ-cmM">
+                                <rect key="frame" x="137" y="348" width="234" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="r9N-EH-qIR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="waterTextField" destination="LyY-NZ-cmM" id="uIz-Zs-P1I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aYW-Ot-JQR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -495,18 +536,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="homekit" catalog="system"/>
+                                <connections>
+                                    <segue destination="zpV-8i-FHs" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="ePo-D5-CPR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lAz-Q8-qb4">
                                 <rect key="frame" x="105" y="817" width="65" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="mappin" catalog="system"/>
+                                <connections>
+                                    <segue destination="osJ-c9-hVw" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="lCh-ps-ArZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kHo-0S-Onh">
                                 <rect key="frame" x="247" y="817" width="64" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="fork.knife" catalog="system"/>
+                                <connections>
+                                    <segue destination="44r-jZ-seT" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Nge-Gz-dwm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSG-1d-Jve">
                                 <rect key="frame" x="170" y="817" width="64" height="45"/>
@@ -574,19 +624,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rXx-ie-hxQ">
-                                <rect key="frame" x="114" y="337" width="236" height="46"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TkZ-wH-RhR">
                                 <rect key="frame" x="177" y="695" width="180" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Submit "/>
                                 <connections>
-                                    <segue destination="zpV-8i-FHs" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="q23-fL-ceP"/>
+                                    <segue destination="44r-jZ-seT" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="wg7-HF-mRG"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WEN-zl-VWq">
+                                <rect key="frame" x="105" y="337" width="229" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CnJ-2z-kDq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -748,6 +800,10 @@
                         <viewLayoutGuide key="safeArea" id="KxE-Uk-PEV"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <outlet property="fidoButton" destination="xiT-ob-e0h" id="MQU-aG-hY0"/>
+                        <outlet property="petFindButton" destination="1ob-Sb-fWS" id="DZH-V5-efV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a4E-OO-UUt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -941,8 +997,9 @@
         <segue reference="V2N-4O-m8B"/>
         <segue reference="mnS-VV-XpW"/>
         <segue reference="PWE-hA-leN"/>
+        <segue reference="4XP-Bj-YUg"/>
         <segue reference="WQC-CV-HyH"/>
-        <segue reference="q23-fL-ceP"/>
+        <segue reference="ePo-D5-CPR"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.64313725489999995" green="0.2901960784" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
@@ -960,8 +1017,9 @@
         <image name="jot_clear" width="2048" height="2048"/>
         <image name="map_pin" width="2048" height="2048"/>
         <image name="mappin" catalog="system" width="105" height="128"/>
-        <image name="pills" width="2048" height="2048"/>
         <image name="pills" catalog="system" width="128" height="106"/>
+        <image name="pills" width="2048" height="2048"/>
+        <image name="pills_clear" width="2048" height="2048"/>
         <image name="scale" width="2048" height="2048"/>
         <image name="scalemass" catalog="system" width="128" height="119"/>
         <image name="stethoscope" catalog="system" width="128" height="96"/>
